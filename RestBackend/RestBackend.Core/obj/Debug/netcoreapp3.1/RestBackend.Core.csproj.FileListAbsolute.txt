@@ -1,0 +1,9 @@
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\bin\Debug\netcoreapp3.1\RestBackend.Core.deps.json
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\bin\Debug\netcoreapp3.1\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\bin\Debug\netcoreapp3.1\RestBackend.Core.pdb
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\obj\Debug\netcoreapp3.1\RestBackend.Core.AssemblyInfoInputs.cache
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\obj\Debug\netcoreapp3.1\RestBackend.Core.AssemblyInfo.cs
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\obj\Debug\netcoreapp3.1\RestBackend.Core.csproj.CoreCompileInputs.cache
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\obj\Debug\netcoreapp3.1\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\obj\Debug\netcoreapp3.1\RestBackend.Core.pdb
+D:\edwin\Documents\Repositorios\RestBackend\RestBackend.Core\obj\Debug\netcoreapp3.1\RestBackend.Core.csprojAssemblyReference.cache

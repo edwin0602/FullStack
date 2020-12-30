@@ -1,0 +1,87 @@
+<div class="wrapper">
+    <div class="page-header page-header-xs" data-parallax="true"
+        style="background-image: url('./assets/img/fabio-mangione.jpg');">
+        <div class="filter"></div>
+    </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="name">
+                        <h4 class="title">Listado de Vehiculos</h4>
+                    </div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Modelo</th>
+                                <th scope="col">Año</th>
+                                <th scope="col">Marca</th>
+                                <th scope="col">Cilindraje</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let vehicle of vehicles; index as i">
+                                <th scope="row">{{ i + 1 }}</th>
+                                <td>{{ vehicle.model }}</td>
+                                <td>{{ vehicle.year }}</td>
+                                <td>{{ vehicle.vehicleBrand.name }}</td>
+                                <td>{{ vehicle.cylinderCap | number }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-4">
+                    <h4 class="title">Nuevo vehiculo</h4>
+
+                    <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+                        <fieldset [disabled]="!canSubmit">
+                            <div class="form-group">
+                                <label>Modelo</label>
+                                <input name="model" type="text" class="form-control" ngModel>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label>Año</label>
+                                    <input name="year" type="number" class="form-control" ngModel>
+                                </div>
+
+                                <div class="form-group col">
+                                    <label>Cilindraje</label>
+                                    <input name="cylinderCap" type="number" class="form-control" ngModel>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label>Marca</label>
+                                    <select name="brandId" class="form-control" ngModel>
+                                        <option [ngValue]="item.id" *ngFor="let item of vehicleBrands">{{item.name}}
+                                        </option>
+                                    </select>
+
+                                </div>
+
+                                <div class="form-group col">
+                                    <label>Tipo</label>
+                                    <select name="typeId" class="form-control" ngModel>
+                                        <option [ngValue]="item.id" *ngFor="let item of vehicleTypes">{{item.name}}
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <button type="submit" class="btn btn-outline-danger btn-round">
+                                Guardar
+                            </button>
+                        </fieldset>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

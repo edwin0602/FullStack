@@ -1,0 +1,9 @@
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\bin\Debug\netstandard2.1\RestBackend.Core.deps.json
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\bin\Debug\netstandard2.1\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\bin\Debug\netstandard2.1\RestBackend.Core.pdb
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\obj\Debug\netstandard2.1\RestBackend.Core.AssemblyInfoInputs.cache
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\obj\Debug\netstandard2.1\RestBackend.Core.AssemblyInfo.cs
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\obj\Debug\netstandard2.1\RestBackend.Core.csproj.CoreCompileInputs.cache
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\obj\Debug\netstandard2.1\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\obj\Debug\netstandard2.1\RestBackend.Core.pdb
+D:\edwin\Documents\Repositorios\RestBackend.Api\RestBackend.Core\obj\Debug\netstandard2.1\RestBackend.Core.csprojAssemblyReference.cache
