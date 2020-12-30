@@ -21,3 +21,7 @@ npm install
 ## Inicializacion
 
 Iniciar FullStack/RestBackend/RestBackend.Api y la app en Angular.
+
+
+## Data Model
+![alt text](https://github.com/edwin0602/FullStack/blob/master/Captura.PNG?raw=true)
